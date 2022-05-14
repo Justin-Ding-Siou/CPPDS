@@ -1,4 +1,4 @@
-// hw11_1,
+// äº†è§£å…§å®¹
 #include <iostream>
 #include <cstdlib>
 #include <string>
@@ -17,19 +17,19 @@ int main(void)
    getline(cin,student.id);
    cout << "Student's name:";
    getline(cin,student.name);
-   cout << "´Á¤¤¦¨ÁZ:";
+   cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Z:";
    cin  >> student.score1;
-   cout << "´Á¥½¦¨ÁZ:";
+   cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Z:";
    cin  >> student.score2 ;
-   cout << "¥­®É¦¨ÁZ:";
+   cout << "ï¿½ï¿½ï¿½É¦ï¿½ï¿½Z:";
    cin  >> student.score3;
    cout << "*****Output******" << endl;
    cout << student.id << endl;
    cout << student.name << endl;
-   cout << "´Á¤¤¦¨ÁZ¬° " << student.score1 << endl;
-   cout << "´Á¥½¦¨ÁZ¬° " << student.score2 << endl;
-   cout << "¥­®É¦¨ÁZ¬° " << student.score3 << endl;
-   cout << "¾Ç´Á¦¨ÁZ¬° " << student.score1*0.3+
+   cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ " << student.score1 << endl;
+   cout << "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ " << student.score2 << endl;
+   cout << "ï¿½ï¿½ï¿½É¦ï¿½ï¿½Zï¿½ï¿½ " << student.score3 << endl;
+   cout << "ï¿½Ç´ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ " << student.score1*0.3+
                             student.score2*0.3+
                             student.score3*0.4 << endl;
 
@@ -40,14 +40,14 @@ int main(void)
 /* output-------------------------------
 Student's ID:95001
 Student's name:Tippi Hong
-´Á¤¤¦¨ÁZ:89
-´Á¥½¦¨ÁZ:87
-¥­®É¦¨ÁZ:96
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Z:89
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Z:87
+ï¿½ï¿½ï¿½É¦ï¿½ï¿½Z:96
 *****Output******
 95001
 Tippi Hong
-´Á¤¤¦¨ÁZ¬° 89
-´Á¥½¦¨ÁZ¬° 87
-¥­®É¦¨ÁZ¬° 96
-¾Ç´Á¦¨ÁZ¬° 91.2
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ 89
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ 87
+ï¿½ï¿½ï¿½É¦ï¿½ï¿½Zï¿½ï¿½ 96
+ï¿½Ç´ï¿½ï¿½ï¿½ï¿½Zï¿½ï¿½ 91.2
 --------------------------------------*/
