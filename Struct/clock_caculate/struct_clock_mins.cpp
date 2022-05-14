@@ -3,20 +3,20 @@
 #include <cstdlib>
 #include <iomanip>
 using namespace std;
-typedef struct	// ﹚竡璹篈
+typedef struct
 {
    int hour;
    int minite;
    float second;
 } mytime;
-void mius(mytime t[]);    	// ㄧ计
+void mius(mytime t[]);
 int main(void)
 {
    int i;
    mytime t[3]={{6,24,17.43f},{3,40,45.58f}};
    cout << setfill('0');
-   mius(t);	            	// ㊣mius()ㄧ计璸衡t[0]-t[1]
-   for(i=0;i<3;i++)     	// 皚ず甧
+   mius(t);
+   for(i=0;i<3;i++)
    {
       cout << "t[" << i << "]=" << setw(2) << t[i].hour << ":";
       cout << setw(2) << t[i].minite << ":";
@@ -26,16 +26,16 @@ int main(void)
    return 0;
 }
 
-void mius(mytime t[])		// 璹ㄧ计mius()
+void mius(mytime t[])
 {
-   t[2].hour=t[0].hour-t[1].hour;		         // 计搭
-   t[2].minite=t[0].minite-t[1].minite;      	// だ计搭
+   t[2].hour=t[0].hour-t[1].hour;
+   t[2].minite=t[0].minite-t[1].minite;
    while(t[2].minite<0)
    {
       t[2].hour--;
       t[2].minite+=60;
    }
-   t[2].second=t[0].second-t[1].second;			// 计搭
+   t[2].second=t[0].second-t[1].second;
    while(t[2].second<0)
    {
       t[2].minite--;
