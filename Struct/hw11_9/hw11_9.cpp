@@ -12,16 +12,12 @@ int main(void)
    string a[12]={"January","February","March","April",
                  "May","June","July","August","September",
                  "October","November","December"};
-   cout << "請輸入欲查詢的月份(1~12):";
+   cout << "Date (12~1):";
+
    cin >> i;
    th=static_cast<month>(i);
-   cout << th << "月=" << a[th-1] << endl;
+   cout << th << "=" << a[th-1] << endl;
 
    system("pause");
    return 0;
 }
-
-/* output---------------------------
-請輸入欲查詢的月份(1~12):6
-6月=June
-----------------------------------*/
