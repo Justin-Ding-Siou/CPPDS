@@ -44,12 +44,12 @@ int main()
   }
 
   cout << " Insertion Sort  " << endl;
-  
 
 
   return 0;
 }
 
+//insertionSort 會用到指標
 void insertionSort(int array[], const int n) {
   if(n > 1) {
     //array + 1，指向下一層。

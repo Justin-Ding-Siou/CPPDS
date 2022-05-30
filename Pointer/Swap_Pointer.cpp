@@ -25,11 +25,21 @@ int main()
   cout << a << " " << b << endl;
   cout << endl;
 
+  cout << endl;
+  cout << "call by address" << endl;
+
+  cout << endl;
   cout << "call by pointer" << endl;
+
+
   int c = 25,d = 30;
   cout << c << " " << d << endl;
   swapbypoiter(&d, &e);
   cout << c << " " << d << endl;
+
+  cout << endl;
+  cout << "call by result" << endl;
+
 
 
 
